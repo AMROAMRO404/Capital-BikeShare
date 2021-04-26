@@ -1,4 +1,4 @@
-# Import pandas
+# Import libraries
 import pandas as pd
 
 # reading csv file

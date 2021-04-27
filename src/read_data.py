@@ -13,6 +13,6 @@ df['Start date'] = df['Start date'].dt.strftime(
     '%Y-%m-%d %H:00:00')  # 01:34:15    01:10:5
 
 df = df.groupby(["Start date", "Start station"]).count()
-df.to_csv(output_file, index=False)
+df.to_csv(output_file)
 print(df)
 print(f'max value = ' + str(df["number_of_bikes"].max()))

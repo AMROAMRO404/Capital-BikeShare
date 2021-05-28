@@ -1,5 +1,9 @@
 # Capital-BikeShare-Problem
 
-data is available here: https://s3.amazonaws.com/capitalbikeshare-data/201805-capitalbikeshare-tripdata.zip
+## Problem description: https://www.capitalbikeshare.com/system-data
 
-please install data and add it data folder.
+### Algorithms are used to solve this Machine Learning problem:
+
+- Linear regression
+- Neural Network
+- Random forest
